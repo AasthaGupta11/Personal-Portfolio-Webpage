@@ -26,3 +26,5 @@ The navigation links (Home, About, Work, Projects, Contact) are designed to allo
 The contact form has built-in validation. Users are required to fill in all fields (Name, Email, and Message). The email field is also validated using a regular expression to ensure the format is correct. If any field is left empty or the email format is invalid, a SweetAlert error message is displayed, prompting the user to correct the issue.
 A SweetAlert is used to display notifications when the form is successfully submitted or if there are errors. The alert is visually appealing and helps to create an interactive and engaging experience for the user.
 The navigation menu is fixed at the top of the page, allowing the user to easily access different sections of the portfolio. The user can click on the navigation links, and the page will scroll smoothly to the corresponding section.
+
+**OUTPUT**: ![Image](https://github.com/user-attachments/assets/00ec0062-9612-4d8d-ae57-6a65e0bf3ce4)
