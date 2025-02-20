@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.0/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.0/dist/sweetalert2.min.js"></script>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <h2> Jennifer Winget </h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--HOME SECTION-->
+    <section id="home">
+        <div class="home_text">
+            <h1> Hii! I'm <br> Jennnifer <span class="surname"> Winget </span> <br> Web Developer</h1>
+            <button class="btn"> Hire Me </button>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></a></i>
+                <a href="#"><i class='bx bxl-twitter'></a></i>
+                <a href="#"><i class='bx bxl-github'></a></i>
+            </div>
+        </div>
+        <div class="home_image">
+            <img
+                src="https://static.wixstatic.com/media/650809_a3afdc8520094a029679cb54e3e1c163~mv2.jpg/v1/fill/w_347,h_337,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/photo6091679565232581498.jpg">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2> About </h2>
+        <p> My Introduction </p>
+        <div class="about">
+            <div class="about_img">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Jennifer_Winget_snapped_promoting_her_web_series_Code_M.jpg/220px-Jennifer_Winget_snapped_promoting_her_web_series_Code_M.jpg">
+            </div>
+            <div class="about_text">
+                <h1> I'm Jennifer </h1>
+                <p> I am a very aspiring and determined person. I love to learn and analyze new knowledge. My strength
+                    is my creativity and determined personality. I posssess a good communication and problem solving
+                    skill. My keen interests are reading religious scriptures and mythology. My weakness is my habit of
+                    multi-tasking. </p>
+                <button class="btn"> Download CV </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <h2> Projects </h2>
+        <p> Projects Accomplished </p>
+        <div class="projects_content">
+            <div class="box">
+                <img src="1.png">
+                <h1> Music Player </h1>
+                <p>Developed a feature rich music player web application from scratch using HTML, CSS and JavaScript.
+                </p>
+            </div>
+            <div class="box">
+                <img src="2.png">
+                <h1> Hotel Management </h1>
+                <p>A dynamic website of a hotel having database to store customer's information. It has 10 web pages
+                    along with eye catchy images and attractive captions.</p>
+            </div>
+            <div class="box">
+                <img src="3.png">
+                <h1> Shoes Website </h1>
+                <p>Developed a single web page of a shoes company which enables users to look and select their favourite
+                    shoes and then place order directly at the company's website.</p>
+            </div>
+            <div class="box">
+                <img src="4.png">
+                <h1> Furniture Website </h1>
+                <p>Developed a furniture website majorly representing all types of chairs and integrated it with a
+                    database and a chatbot for the ease of users to choose their favourite one by comparing the prices
+                    according to the budget.</p>
+            </div>
+            <div class="box">
+                <img src="5.png">
+                <h1> Interactive Quiz Application </h1>
+                <p>A quiz application with 10 questions made with frontend technologies that calculates the score of the
+                    applicant and then displays it after the completion of the quiz by a sweet alert.</p>
+            </div>
+            <div class="box">
+                <img src="6.png">
+                <h1> Glassmorphism Landing Page </h1>
+                <p>A landing glassmorphism page that displays the items of a rstaurant along with the description of the
+                    restaurant. It also provides a button to view menu of the restaurant.</p>
+            </div>
+        </div>
+    </section>
+    <!-- WORK SECTION -->
+    <section id="work">
+        <h2> Work </h2>
+        <p> Work With Us </p>
+        <div class="work">
+            <div class="work_text">
+                <h1> We believe to deliver best <br> Quality Work </h1>
+                <p> We believe to deliver best quality work in order to accomplish the goals and maintain relationships
+                    and trust of our clients. We are known for our time management and quality assurance within the best
+                    of our efforts and knowledge.</p>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="work_image">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Channel_1_Israel_DSC0021.jpg/300px-Channel_1_Israel_DSC0021.jpg">
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2> Contact </h2>
+        <p> Leave a message, We will try to contact you within 24 hours.</p>
+        <div class="contact">
+            <div class="contact_text">
+                <h1> Connect With Us <br> By Filling This Form.</h1>
+            </div>
+            <div class="contact_form">
+                <form action="" id="my_form">
+                    <input type="text" placeholder="Name" id="name">
+                    <input type="email" placeholder="Your E-mail" id="email">
+                    <textarea name="" id="txt" cols="30" rows="10" placeholder="Your Message Here..."></textarea>
+                    <input type="button" value="Send" class="contact_button" onclick="sweet()">
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
